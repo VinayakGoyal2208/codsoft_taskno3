@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+html,
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    font-family: "Sofadi One", system-ui;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(125, 125, 131);
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    font-family: "Roboto Slab", serif;
+
+}
+
+h1 {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.input {
+    font-size: 20px;
+    margin: 27px;
+    border-radius: 18px;
+    border: 6px;
+    border: 3px solid rgb(122, 129, 122);
+    text-align: end;
+    padding: 10px 8px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button 
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
